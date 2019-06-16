@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <!-- AMPプロジェクトに必要な設定 -->
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <!-- AMPストーリーに必要な設定 -->
+    <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <title>カップラーメンランキング</title>
+    <style amp-custom>
+        .prot {
+            padding: 0;
+            background: white;
+        }
+        h1 {
+            margin-top:10px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .ranking {
+            background: white;
+        }
+        .top7 {
+            padding: 0;
+            background-color: #f8c15b;
+        }
+        .top7-title {
+            grid-row: 1fr;
+            background-color: #f8c15b;
+        }
+        .top6 {
+            padding: 0;
+            background: white;
+        }
+        .top3-top {
+            margin: 0;
+            padding: 30px 0 0;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .top3-bottom {
+            padding: 0;
+            align-content:end;
+        }
+        .top3-title {
+            margin: 0 10px;
+            color: white;
+        }
+        .top3-text {
+            margin-bottom: 20px;
+            color: white;
+        }
+        .top2 {
+            padding: 30px 10px 0;
+            background-color: white;
+        }
+        .top1 {
+            padding: 30px 10px 0;
+        }
+        .top1-bottom {
+            padding: 0;
+            align-content:end;
+        }
+        .top1-text {
+            margin-bottom: 20px;
+        }
+        amp-story-grid-layer.noedge {
+            padding: 0px;
+        }
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+        .banner-text {
+            text-align: center;
+            background-color: #000;
+            line-height: 2em;
+        }
+    </style>
+</head>
+<body>
+    <amp-story standalone title="カップラーメンランキング" publisher="SmartShopping"
+        publisher-logo-src="img/logo_s.png" poster-portrait-src="img/prot_2cupmen2.png">
+        <amp-story-page id="prot">
+            <amp-story-grid-layer template="vertical" class="prot">
+                <h1 class="title" animate-in="fly-in-top" animate-in-delay="0.5s">カップ麺徹底比較！<br>ボリューム感やコクの深みは？</h1>
+                <amp-img src="img/prot_2cupmen2.png" width="720" height="1280" layout="responsive">
+                </amp-img>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top10">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="/img/top10.jpg" width="720" height="1280" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="thirds">
+                <h1 grid-area="upper-third" animate-in="fly-in-left" animate-in-delay="0.4s">カップラーメンおすすめ最新人気ランキング</h1>
+                <h2 grid-area="lower-third" animate-in="fly-in-right" animate-in-delay="0.6s">10位: カップヌードル ナイス 濃厚!ポークしょうゆ カップ 58g</h2>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top9">
+            <amp-story-grid-layer template="vertical" class="ranking">
+                <h1  animate-in="fly-in-left" animate-in-delay="0.4s">カップラーメンおすすめ最新人気ランキング</h1>
+                <amp-img src="/img/top9.jpg" width="720" height="1280" layout="responsive"></amp-img>
+                <h2 animate-in="fly-in-right" animate-in-delay="0.6s">9位: ラ王 背脂コク醤油 カップ 115g</h2>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top8">
+            <amp-story-grid-layer template="vertical" class="ranking">
+                <h1 animate-in="fly-in-top" animate-in-delay="0.4s">カップラーメンおすすめ最新人気ランキング</h1>
+                <amp-img src="/img/top8.jpg" width="720" height="1280" layout="responsive"></amp-img>
+                <h2 animate-in="fly-in-bottom" animate-in-delay="0.6s">8位: わかめラーメン ミニ ごま・しょうゆ カップ 38g</h2>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top7">
+            <amp-story-grid-layer template="vertical" class="top7">
+                <h1 class="top7-title" animate-in="rotate-in-left" animate-in-delay="0.4s">カップラーメンおすすめ最新人気ランキング</h1>
+                <amp-img src="/img/top7.jpg" width="720" height="1280" layout="responsive"></amp-img>
+                <h2 class="top7-title" animate-in="rotate-in-right" animate-in-delay="0.6s">7位: 金ちゃん ヌードル カップ 85g</h2>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top6">
+            <amp-story-grid-layer template="vertical" class="top6">
+                <h1 animate-in="pulse" animate-in-delay="0.4s" animate-in-duration="1s">カップラーメンおすすめ最新人気ランキング</h1>
+                <amp-img src="/img/top6.jpg" width="720" height="1280" layout="responsive"></amp-img>
+                <h2 animate-in="twirl-in" animate-in-delay="0.6s" animate-in-duration="1s">6位: 行列のできる店のラーメン 和歌山 特濃豚骨しょうゆ
+                    カップ 130g×12</h2>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top5">
+            <amp-story-grid-layer template="vertical" class="ranking">
+                <h1 animate-in="whoosh-in-left" animate-in-delay="0.4s" animate-in-duration="1s">カップラーメンおすすめ最新人気ランキング
+                </h1>
+                <amp-img src="/img/top5.jpg" width="720" height="1280" layout="responsive"></amp-img>
+                <h2 animate-in="whoosh-in-right" animate-in-delay="0.6s" animate-in-duration="1s">5位: カップヌードル トムヤムクンヌードル
+                    カップ75g</h2>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top4">
+            <amp-story-grid-layer template="vertical" class="ranking">
+                <h1 animate-in="drop" animate-in-delay="1s" animate-in-duration="3s">カップラーメンおすすめ最新人気ランキング
+                </h1>
+                <amp-img animate-in="twirl-in" src="/img/top4.jpg" width="720" height="1280"
+                    layout="responsive"></amp-img>
+                <h2 animate-in="fade-in" animate-in-delay="1.2s" animate-in-duration="1s">4位: セブンプレミアム 蒙古タンメン中本 辛旨味噌 カップ
+                    118g</h2>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top3">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="/img/top3.jpg" width="720" height="1280"
+                    layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="top3-top">
+                <h1 class="top3-title" animate-in="fly-in-left" animate-in-delay="0.4s">3位: マルちゃん正麺 うま辛担担麺 カップ 120g
+                </h1>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="top3-bottom">
+                <p class="top3-text" animate-in="fly-in-bottom" animate-in-delay="0.6s">
+                    「カップラーメンはチープな味がいちばんおいしい」という偏った持論があった私ですが、昨今のカップ麺業界の本気をこの商品に感じました。
+                    担々麺なのですが、辛みが前にグイッと出てくるタイプではなく、先に旨味やコクが味わえ、最後にピリリとほどよい辛みが顔を出してきます。麺との辛みも◎。
+                    コンビニやスーパーの棚は、スペースが限られているため、カップ麺の入れ替わりはかなり激しいのですが、長い期間コンビニでもいいポジションに陳列されているのを見ると、その人気ぶりが伺えます。
+                </p>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top2">
+            <amp-story-grid-layer template="vertical" class="top2">
+                <h1 animate-in="fly-in-top" animate-in-delay="0.5s" animate-in-duration="1s">2位: カップヌードル シーフードヌードル カップ 75g
+                </h1>
+                <amp-img animate-in="fade-in" src="/img/top2.jpg" width="720" height="1280"
+                    layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top1">
+            <amp-story-grid-layer template="fill" class="top1">
+                <amp-img src="/img/top1.jpg" width="375" height="667" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="top1">
+                <h1 animate-in="fly-in-top">1位: カップヌードル カップ 77g</h1>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="top1-bottom">
+                <p class="top1-text" animate-in="fly-in-bottom" animate-in-delay="0.6s">
+                    「1971年の発売以来、現在までカップラーメンの代表格として多くの人に愛されている「カップヌードル」。日本のみならず、アメリカやアジア、ヨーロッパなど、世界80ヶ国以上で市販されています。
+                    湯のびしにくく、しなやかでツルッとした麺に、ペッパーを効かせたスパイシーな醤油スープは飽きがこない永遠のスタンダード。一時は“謎の肉”と呼ばれたダイス型のチャーシュー「コロ・チャー」、ふわっとした玉子は昨今ブームの“本格派カップ麺”とはひと味違う、時々食べたくなってしまう具材です。
+                    具材はフリーズドライ製法で加工されており、食感・旨味・色やかたちを損なわないため、防腐剤や合成保存料も使用していません。
+                </p>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="summary">
+            <amp-story-grid-layer template="vertical" class="noedge">
+                <div class="wrapper">
+                    <amp-img animate-in="fade-in" animate-in-delay="0.4s" src="/img/top1.jpg" width="720"
+                        height="1280"
+                        layout="responsive">
+                    </amp-img>
+                    <amp-img animate-in="fade-in" animate-in-delay="0.6s" src="/img/top2.jpg" width="720"
+                        height="1280"
+                        layout="responsive">
+                    </amp-img>
+                    <amp-img animate-in="fade-in" animate-in-delay="0.8s" src="/img/top3.jpg" width="720"
+                        height="1280" layout="responsive">
+                    </amp-img>
+                    <amp-img animate-in="fade-in" animate-in-delay="1s" src="/img/top4.jpg" width="720"
+                        height="1280" layout="responsive">
+                    </amp-img>
+                    <amp-img animate-in="fade-in" animate-in-delay="1.2s" src="/img/top5.jpg" width="720"
+                        height="1280" layout="responsive">
+                    </amp-img>
+                    <amp-img animate-in="fade-in" animate-in-delay="1.4s" src="/img/top6.jpg" width="720"
+                        height="1280" layout="responsive">
+                    </amp-img>
+                    <amp-img animate-in="fade-in" animate-in-delay="1.6s" src="/img/top7.jpg" width="720"
+                        height="1280" layout="responsive">
+                    </amp-img>
+                    <amp-img animate-in="fade-in" animate-in-delay="1.8s" src="/img/top8.jpg" width="720"
+                        height="1280" layout="responsive">
+                    </amp-img>
+                    <amp-img animate-in="fade-in" animate-in-delay="2s" src="/img/top9.jpg" width="720"
+                        height="1280" layout="responsive">
+                    </amp-img>
+                    <amp-img animate-in="fade-in" animate-in-delay="2.2s" src="/img/top10.jpg" width="720"
+                        height="1280" layout="responsive">
+                    </amp-img>
+                </div>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-bookend src="bookend.json" layout="nodisplay"></amp-story-bookend>
+    </amp-story>
+</body>
+</html>

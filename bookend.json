@@ -1,0 +1,90 @@
+{
+  "bookendVersion": "v1.0",
+  "shareProviders": [
+    "facebook",
+    "twitter",
+    "email"
+  ],
+  "components": [
+    {
+      "type": "heading",
+      "text": "詳細を見る"
+    },
+    {
+      "type": "portrait",
+      "title": "1位: カップヌードル カップ 77g",
+      "url": "https://smashop.jp/dp/0000049698626",
+      "image": "/img/top1.jpg"
+    },
+    {
+      "type": "portrait",
+      "title": "2位: カップヌードル シーフードヌードル カップ 75g",
+      "url": "https://smashop.jp/dp/0000049698633",
+      "image": "/img/top2.jpg",
+      "category": "カップ麺"
+    },
+    {
+      "type": "portrait",
+      "title": "3位: マルちゃん正麺 うま辛担担麺 カップ 120g",
+      "url": "https://smashop.jp/dp/4901990336796",
+      "image": "/img/top3.jpg",
+      "category": "カップ麺"
+    },
+    {
+        "type": "landscape",
+        "title": "4位: セブンプレミアム 蒙古タンメン中本 辛旨味噌 カップ 118g",
+        "url": "https://smashop.jp/dp/0000049698626",
+        "image": "/img/top4.jpg"
+    },
+    {
+        "type": "landscape",
+        "title": "5位: カップヌードル トムヤムクンヌードル カップ75g",
+        "url": "https://smashop.jp/dp/0000049698633",
+        "image": "/img/top5.jpg",
+        "category": "カップ麺"
+    },
+    {
+        "type": "landscape",
+        "title": "6位: 行列のできる店のラーメン 和歌山 特濃豚骨しょうゆ カップ 130g×12",
+        "url": "https://smashop.jp/dp/4901990336796",
+        "image": "/img/top6.jpg",
+        "category": "カップ麺"
+    },
+    {
+        "type": "small",
+        "title": "7位: 金ちゃん ヌードル カップ 85g",
+        "url": "https://wikipedia.org/wiki/Cat",
+        "image": "/img/top7.jpg"
+    },
+    {
+        "type": "small",
+        "title": "8位: わかめラーメン ミニ ごま・しょうゆ カップ 38g",
+        "url": "https://wikipedia.org/wiki/Border_Collie",
+        "image": "/img/top8.jpg",
+        "category": "カップ麺"
+    },
+    {
+        "type": "small",
+        "title": "9位: ラ王 背脂コク醤油 カップ 115g",
+        "url": "https://smashop.jp/dp/4902105234518",
+        "image": "/img/top9.jpg",
+        "category": "カップ麺"
+    },
+    {
+        "type": "small",
+        "title": "10位: カップヌードル ナイス 濃厚!ポークしょうゆ カップ 58g",
+        "url": "https://smashop.jp/dp/4902105237847",
+        "image": "/img/top10.jpg",
+        "category": "カップ麺"
+    },
+    {
+      "type": "cta-link",
+      "links": [
+        {
+          "text": "もっと詳しく読む",
+          "url": "https://smashop.jp/subcategory/404000/special#productlist1"
+        }
+      ]
+    }
+  ]
+}
