@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <!-- AMPプロジェクトに必要な設定 -->
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <!-- AMPストーリーに必要な設定 -->
+    <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <title>カップラーメンランキング</title>
+    <style amp-custom>
+        .prot {
+            padding: 0;
+            background: white;
+        }
+        .prot-title {
+            margin:30px 20px 0;
+        }
+        h1 {
+            margin-top:10px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .ranking {
+            margin: 0;
+            padding: 30px 0 0;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .bottom {
+            padding: 0;
+            align-content:end;
+        }
+        .title {
+            margin: 20px 10px 0;
+            color: white;
+        }
+        .text {
+            margin-bottom: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <amp-story standalone title="カップラーメンランキング" publisher="SmartShopping"
+        publisher-logo-src="img/logo_s.png" poster-portrait-src="img/prot_2cupmen.png">
+        <amp-story-page id="prot">
+            <amp-story-grid-layer template="vertical" class="prot">
+                <h1 class="prot-title" animate-in="fly-in-top" animate-in-delay="0.5s">カップ麺徹底比較！<br>ボリューム感やコクの深みは？</h1>
+                <amp-img src="img/prot_2cupmen2.png" width="720" height="720" layout="responsive">
+                </amp-img>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top10">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="img/top10_2.jpg" width="375" height="667" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="ranking" animate-in="fade-in" animate-in-delay="0.8s">
+                <h1 class="title" animate-in="fly-in-left" animate-in-delay="0.8s">10位：カップヌードル ナイス 濃厚!ポークしょうゆ</h1>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="bottom">
+                <p class="text" animate-in="fly-in-bottom" animate-in-delay="0.8s">
+                    麺にしっかり絡む、とろみのあるスープは豚骨エキスを使用しているので「カップヌードル」よりも濃厚。<br>
+                    <br>
+                    ノンフライ麺なので、かなり軽く、どちらかと言うとフォーを食べているような感覚です。<br>
+                    <br>
+                    カロリーは「カップヌードル」の約半分（176kcal）
+                </p>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top9">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="img/top9_2.jpg" width="375" height="667" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="ranking" animate-in="fade-in" animate-in-delay="0.8s">
+                <h1 class="title" animate-in="fly-in-left" animate-in-delay="0.8s">9位：ラ王 背脂コク醤油</h1>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="bottom">
+                <p class="text" animate-in="fly-in-bottom" animate-in-delay="0.8s">
+                    醤油のコクにこだわり、鶏ガラと背脂の旨味と甘みが合わさった味わい深いスープに、“生タイプ麺より生麺に近い”次世代ノンフライ麺がよく絡みます。<br>
+                    <br>
+                    器をラーメン鉢に移し替えたら、本当にまちの中華屋さんの中華そばのような本格的な味わいに。
+                </p>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top8">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="img/top8_2.jpg" width="375" height="667" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="ranking" animate-in="fade-in" animate-in-delay="0.8s">
+                <h1 class="title" animate-in="fly-in-left" animate-in-delay="0.8s">8位：わかめラーメン</h1>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="bottom">
+                <p class="text" animate-in="fly-in-bottom" animate-in-delay="0.8s">
+                    ヘルシーで麺を口に入れる度に、わかめの旨味、ゴマの香ばしさ、コーンの甘みが交互に押し寄せ、変化を楽しめるのが魅力。<br>
+                    <br>
+                    スープは有機丸大豆醤油を使用し、いりこや鰹などの魚介の旨みを加えたすっきりとした醤油味で優しく、あっさりした風味。<br>
+                    <br>
+                    麺も弾力があるので、食べごたえも抜群です。
+                </p>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top7">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="img/top7_2.jpg" width="375" height="667" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="ranking" animate-in="fade-in" animate-in-delay="0.8s">
+                <h1 class="title" animate-in="fly-in-left" animate-in-delay="0.8s">7位：金ちゃん ヌードル カップ</h1>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="bottom">
+                <p class="text" animate-in="fly-in-bottom" animate-in-delay="0.8s">
+                    麺には肉エキスが練りこまれ、香ばしさと歯切れの良いコシが◎。スープは何度食べても飽きない、ちょっと懐かしいしょうゆ味。<br>
+                    <br>
+                    本格を求める人は、素朴すぎて物足りないかもしれませんが、シンプル派の人にはぜひ食べてもらいたいロングセラー商品です。
+                </p>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top6">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="img/top6_2.jpg" width="375" height="667" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="ranking" animate-in="fade-in" animate-in-delay="0.8s">
+                <h1 class="title" animate-in="fly-in-left" animate-in-delay="0.8s">6位：行列のできる店のラーメン 和歌山</h1>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="bottom">
+                <p class="text" animate-in="fly-in-bottom" animate-in-delay="0.8s">
+                    和歌山ラーメンの特徴である中細ストレート麺は、濃厚なスープに絡みやすいコシとつるみがあります。<br>
+                    <br>
+                    スープはしっかりとした醤油の旨味に豚骨のコクが絶妙に調和した特濃スープ。<br>
+                    <br>
+                    旨味がすごいので気がつけば飲み干してしまうほど……。ひと口食べたらやめられません。
+                </p>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top5">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="img/top5_2.jpg" width="375" height="667" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="ranking" animate-in="fade-in" animate-in-delay="0.8s">
+                <h1 class="title" animate-in="fly-in-left" animate-in-delay="0.8s">5位：カップヌードル トムヤムクンヌードル</h1>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="bottom">
+                <p class="text" animate-in="fly-in-bottom" animate-in-delay="0.8s">
+                    魚介ベースにココナッツミルクをきかせた濃厚な味わいのクリーミーなスープに、レモングラスやライムリーフを加えた「トムヤムペースト」でエスニックファンの心をガシっと掴みました。<br>
+                    <br>
+                    辛すぎず、旨味が強いスープは、本格的なエスニックながらも日本人好みの味わいに。
+                </p>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top4">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="img/top4_2.jpg" width="375" height="667" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="ranking" animate-in="fade-in" animate-in-delay="0.8s">
+                <h1 class="title" animate-in="fly-in-left" animate-in-delay="0.8s">4位：セブンプレミアム 蒙古タンメン中本</h1>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="bottom">
+                <p class="text" animate-in="fly-in-bottom" animate-in-delay="0.8s">
+                    太く食べごたえのある麺、旨辛スープにたっぷりの具材は、数多くのファンをも唸らせる完成度の高さ。<br>
+                    <br>
+                    辛さのなかにも、甘みを感じるスープは、食べ進めるほどクセになる味わい。<br>
+                    <br>
+                    具材も大きな豆腐・野菜やキクラゲなどがあり、辛さとともに歯ごたえのある食感も楽しめます。
+                </p>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top3">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="img/top3_2.jpg" width="375" height="667" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="ranking" animate-in="fade-in" animate-in-delay="0.8s">
+                <h1 class="title" animate-in="fly-in-left" animate-in-delay="0.8s">3位：マルちゃん正麺 うま辛担担麺</h1>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="bottom">
+                <p class="text" animate-in="fly-in-bottom" animate-in-delay="0.8s">
+                    「これが即席麺？」と疑いたくなるほどの滑らかな口あたりの麺に、うま辛がクセになるスープがベストマッチ！<br>
+                    <br>
+                    初めは旨味やコク、最後にピリリとほどよい辛みが顔を出してきます。<br>
+                    <br>
+                    麺にこだわるマルちゃんらしい1杯。
+                </p>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top2">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="img/top2_2.jpg" width="375" height="667" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="ranking" animate-in="fade-in" animate-in-delay="0.8s">
+                <h1 class="title" animate-in="fly-in-left" animate-in-delay="0.8s">2位：シーフードヌードル</h1>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="bottom">
+                <p class="text" animate-in="fly-in-bottom" animate-in-delay="0.8s">
+                    ポークベースに魚介エキスをしっかりきかせたコクのある白濁スープが特徴。<br>
+                    <br>
+                    イカ、カニかま、ゲソイカ、キャベツ、たまご、ネギと具材も豊富。<br>
+                    <br>
+                    独自のフリーズドライ製法により、防腐剤や合成保存料を使用することなく、おいしさを閉じ込めています。
+                </p>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        <amp-story-page id="top1">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="img/top1_2.jpg" width="375" height="667" layout="responsive"></amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="ranking" animate-in="fade-in" animate-in-delay="0.8s">
+                <h1 class="title" animate-in="fly-in-left" animate-in-delay="0.8s">1位：カップヌードル</h1>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical" class="bottom">
+                <p class="text" animate-in="fly-in-bottom" animate-in-delay="0.8s">
+                    ペッパーを効かせたスパイシーな醤油スープは飽きがこない永遠のスタンダード。<br>
+                    <br>
+                    “謎の肉”と呼ばれたダイス型のチャーシュー「コロ・チャー」、ふわっとした玉子は昨今ブームの“本格派カップ麺”とはひと味違う、時々食べたくなってしまう具材です。
+                </p>
+            </amp-story-grid-layer>
+        </amp-story-page>
+        
+        <amp-story-bookend src="./bookend_cup-noodles.json" layout="nodisplay"></amp-story-bookend>
+    </amp-story>
+</body>
+</html>
